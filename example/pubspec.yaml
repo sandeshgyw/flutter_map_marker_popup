@@ -11,9 +11,12 @@ dependencies:
   cupertino_icons: ^1.0.3
 
   latlong2: ^0.8.0
-  flutter_map: ">=0.13.1 <1.0.0"
-  flutter_map_marker_popup:
-    path: ../
+  flutter_map: 
+    git: 
+      url: "https://github.com/sandeshgyw/flutter_map.git"
+      ref: "13db571"
+  # flutter_map_marker_popup:
+  #   path: ../
 
 flutter:
   uses-material-design: true
